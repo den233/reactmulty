@@ -1,0 +1,51 @@
+.product-sale{
+	.pagination{
+		padding-left: 20px;
+		float:left;
+		position: fixed;
+		bottom: 0;
+		left:0;
+		background: rgba(238, 238, 238, 0.3);
+		padding: 20px;
+		width: 100%;
+		text-align: center;
+	}
+	.ant-spin-nested-loading{
+		position: static;
+	}
+	.searchBar{
+		position: fixed;
+		width:100%;
+		z-index:200;
+	}
+	.listcontent{
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 109px;
+		.productList{
+			padding-bottom: 80px;
+			float: left;
+			width:100%;	
+			text-align: left;
+			.card{
+				max-width:240px;height: 336px;overflow: hidden;
+				:global {
+					.ant-card-body{
+						padding:10px
+					}
+				}
+			}	
+		}
+		
+	}
+	.active{
+		padding-top: 48px;
+	}
+	.clear{
+		clear:both;
+	} 
+}
+
+ 
+
+ 

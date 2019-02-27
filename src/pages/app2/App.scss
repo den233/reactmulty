@@ -1,0 +1,16 @@
+ 
+@import 'src/assets/css/style.scss';
+.orderList{
+  .table-goodList{
+  }
+  .pagination{
+    text-align: center;
+    margin-top:20px;
+  }
+  .operBtn{
+    float: left;
+    &.left{
+      margin-right: 5px;
+    }
+  }
+}
